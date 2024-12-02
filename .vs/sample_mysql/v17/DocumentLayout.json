@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\work\\Code\\my-study-mysql-2025\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EEF1D99-02E0-4FB4-A862-D7DEF11A4A20}|sample_mysql\\sample_mysql.csproj|c:\\users\\admin\\desktop\\work\\code\\my-study-mysql-2025\\sample_mysql\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1EEF1D99-02E0-4FB4-A862-D7DEF11A4A20}|sample_mysql\\sample_mysql.csproj|solutionrelative:sample_mysql\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\work\\Code\\my-study-mysql-2025\\sample_mysql\\Form1.cs",
+              "RelativeDocumentMoniker": "sample_mysql\\Form1.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\work\\Code\\my-study-mysql-2025\\sample_mysql\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "RelativeToolTip": "sample_mysql\\Form1.cs [\u30C7\u30B6\u30A4\u30F3]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:55:39.874Z",
+              "EditorCaption": " [\u30C7\u30B6\u30A4\u30F3]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

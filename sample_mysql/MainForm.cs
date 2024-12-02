@@ -7,16 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.ServiceProcess;	// ServiceController
 
 namespace sample_mysql
 {
 	public partial class MainForm : Form
 	{
-		/// <summary>
-		/// サービスコントローラー
-		/// </summary>
-		private ServiceController scMysql;
+		private ServiceControllerClass serviceControllerClass = new ServiceControllerClass();
 
 		/// <summary>
 		/// 
@@ -27,12 +23,39 @@ namespace sample_mysql
 
 			InitializeComponent();
 
-
 			// サービス状態を取得
-			this.scMysql = new ServiceController(this.tbServiceName.Text);
-			Console.WriteLine($"サービス名 : {this.scMysql.DisplayName}");
-			Console.WriteLine($"サービス状態 {this.scMysql.Status}");
-			this.lbServiceStatus.Text = this.scMysql.Status.ToString();
+			this.lbServiceStatus.Text = this.serviceControllerClass.doReflesh(this.tbServiceName.Text);
+
+		}
+
+		/// <summary>
+		/// サービス状態を更新
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void ServiceRefresh_Click(object sender, EventArgs e)
+		{
+			this.lbServiceStatus.Text = this.serviceControllerClass.doReflesh(this.tbServiceName.Text);
+		}
+
+		/// <summary>
+		/// サービス開始
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void ServiceStart_Click(object sender, EventArgs e)
+		{
+			this.lbServiceStatus.Text = this.serviceControllerClass.doStart();
+		}
+
+		/// <summary>
+		/// サービス停止
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void ServiceStop_Click(object sender, EventArgs e)
+		{
+			this.lbServiceStatus.Text = this.serviceControllerClass.doStop();
 		}
 	}
 }

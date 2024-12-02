@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\sample_mysql.exe.config
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\sample_mysql.exe
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\sample_mysql.pdb
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.MainForm.resources
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.Properties.Resources.resources
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.exe
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_mysql.pdb
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\System.Diagnostics.EventLog.dll
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\System.ServiceProcess.ServiceController.dll
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\System.Diagnostics.EventLog.xml
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\Users\Admin\Desktop\work\Code\my-study-mysql-2025\sample_mysql\obj\Debug\sample_m.DDBAE5DD.Up2Date

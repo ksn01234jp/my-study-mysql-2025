@@ -34,6 +34,7 @@
 			this.btServiceRefresh = new System.Windows.Forms.Button();
 			this.btServiceStart = new System.Windows.Forms.Button();
 			this.btServiceStop = new System.Windows.Forms.Button();
+			this.btCheckTable = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lbServiceName
@@ -59,7 +60,7 @@
 			// 
 			this.lbServiceStatus.AutoSize = true;
 			this.lbServiceStatus.Font = new System.Drawing.Font("MS UI Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-			this.lbServiceStatus.Location = new System.Drawing.Point(329, 20);
+			this.lbServiceStatus.Location = new System.Drawing.Point(320, 20);
 			this.lbServiceStatus.Name = "lbServiceStatus";
 			this.lbServiceStatus.Size = new System.Drawing.Size(80, 16);
 			this.lbServiceStatus.TabIndex = 2;
@@ -98,11 +99,23 @@
 			this.btServiceStop.UseVisualStyleBackColor = true;
 			this.btServiceStop.Click += new System.EventHandler(this.ServiceStop_Click);
 			// 
+			// btCheckTable
+			// 
+			this.btCheckTable.Font = new System.Drawing.Font("MS UI Gothic", 12F);
+			this.btCheckTable.Location = new System.Drawing.Point(12, 81);
+			this.btCheckTable.Name = "btCheckTable";
+			this.btCheckTable.Size = new System.Drawing.Size(195, 39);
+			this.btCheckTable.TabIndex = 6;
+			this.btCheckTable.Text = "保有テーブル確認";
+			this.btCheckTable.UseVisualStyleBackColor = true;
+			this.btCheckTable.Click += new System.EventHandler(this.CheckTable_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(681, 358);
+			this.Controls.Add(this.btCheckTable);
 			this.Controls.Add(this.btServiceStop);
 			this.Controls.Add(this.btServiceStart);
 			this.Controls.Add(this.btServiceRefresh);
@@ -124,6 +137,7 @@
 		private System.Windows.Forms.Button btServiceRefresh;
 		private System.Windows.Forms.Button btServiceStart;
 		private System.Windows.Forms.Button btServiceStop;
+		private System.Windows.Forms.Button btCheckTable;
 	}
 }
 

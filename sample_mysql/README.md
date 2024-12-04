@@ -10,8 +10,13 @@ SQL構文を勉強するために作成したリポジトリ。
 - Visual Studio
 - MySQL Server 9.1
 - MySQL Workbench 8.0
+- System.ServiceProcess.ServiceController 9.0.0
+- MySql.Data 9.1.0
 
-## 起動コマンド
+## 起動サービス起動
+
+VisualStudioで実行した本アプリでサービスを起動することができる。
+その際はVisualStudioを管理者権限で実行すること。
 
 コマンドプロンプトの場合、管理者として実行してからやる
 

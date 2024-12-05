@@ -86,6 +86,8 @@ namespace sample_mysql
 					using (MySqlDataReader reader = command.ExecuteReader())
 					{
 						string strCurrentTableName = string.Empty;
+						string strTmp = string.Empty;
+						this.tbResult.Text = string.Empty;
 
 						while (reader.Read())
 						{
@@ -95,14 +97,20 @@ namespace sample_mysql
 							if (strCurrentTableName != strTableName)
 							{
 								strCurrentTableName = strTableName;
-								Console.WriteLine($"\nテーブル : {strTableName}");
+								strTmp = $"テーブル : {strTableName}";
+
+								if (this.tbResult.Text != string.Empty) { this.tbResult.Text += "\r\n"; }
+								this.tbResult.Text += strTmp + "\r\n";
+								Console.WriteLine(strTmp);
 							}
 							// カラム情報を表示
 							if (this.cbShowColumnDataType.Checked)
 							{
 								string strColumnName = reader.GetString("COLUMN_NAME");
 								string strDataType = reader.GetString("DATA_TYPE");
-								Console.WriteLine($" - {strColumnName} ({strDataType})");
+								strTmp = $" - {strColumnName} ({strDataType})";
+								this.tbResult.Text += strTmp + "\r\n";
+								Console.WriteLine(strTmp);
 							}
 						}
 					}

@@ -35,7 +35,7 @@
 			this.tbQuery = new System.Windows.Forms.TextBox();
 			this.btExecuteQuery = new System.Windows.Forms.Button();
 			this.btCreateQuery = new System.Windows.Forms.Button();
-			this.textBox1 = new System.Windows.Forms.TextBox();
+			this.tbResult = new System.Windows.Forms.TextBox();
 			this.SuspendLayout();
 			// 
 			// tbSchemaName
@@ -112,24 +112,24 @@
 			this.btCreateQuery.UseVisualStyleBackColor = true;
 			this.btCreateQuery.Click += new System.EventHandler(this.CreateQuery_Click);
 			// 
-			// textBox1
+			// tbResult
 			// 
-			this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+			this.tbResult.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.textBox1.Location = new System.Drawing.Point(20, 269);
-			this.textBox1.Multiline = true;
-			this.textBox1.Name = "textBox1";
-			this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.textBox1.Size = new System.Drawing.Size(505, 225);
-			this.textBox1.TabIndex = 7;
+			this.tbResult.Location = new System.Drawing.Point(20, 269);
+			this.tbResult.Multiline = true;
+			this.tbResult.Name = "tbResult";
+			this.tbResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+			this.tbResult.Size = new System.Drawing.Size(505, 225);
+			this.tbResult.TabIndex = 7;
 			// 
 			// CheckTableForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(547, 506);
-			this.Controls.Add(this.textBox1);
+			this.Controls.Add(this.tbResult);
 			this.Controls.Add(this.btCreateQuery);
 			this.Controls.Add(this.btExecuteQuery);
 			this.Controls.Add(this.tbQuery);
@@ -156,6 +156,6 @@
 		private System.Windows.Forms.TextBox tbQuery;
 		private System.Windows.Forms.Button btExecuteQuery;
 		private System.Windows.Forms.Button btCreateQuery;
-		private System.Windows.Forms.TextBox textBox1;
+		private System.Windows.Forms.TextBox tbResult;
 	}
 }

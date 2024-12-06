@@ -23,6 +23,11 @@ namespace sample_mysql
 		private CheckTableForm checkTableForm = null;
 
 		/// <summary>
+		/// テーブル作成フォーム
+		/// </summary>
+		private CreateTableForm createTableForm = null;
+
+		/// <summary>
 		/// 
 		/// </summary>
 		public MainForm()
@@ -77,6 +82,20 @@ namespace sample_mysql
 			{
 				this.checkTableForm = new CheckTableForm();
 				this.checkTableForm.Show();
+			}
+		}
+
+		/// <summary>
+		/// テーブルを作成するモーダレスダイアログを表示
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void CreateTable_Click(object sender, EventArgs e)
+		{
+			if (this.createTableForm == null || this.createTableForm.IsDisposed)
+			{
+				this.createTableForm = new CreateTableForm();
+				this.createTableForm.Show();
 			}
 		}
 	}

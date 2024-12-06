@@ -35,6 +35,7 @@
 			this.btServiceStart = new System.Windows.Forms.Button();
 			this.btServiceStop = new System.Windows.Forms.Button();
 			this.btCheckTable = new System.Windows.Forms.Button();
+			this.btCreateTable = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lbServiceName
@@ -110,11 +111,23 @@
 			this.btCheckTable.UseVisualStyleBackColor = true;
 			this.btCheckTable.Click += new System.EventHandler(this.CheckTable_Click);
 			// 
+			// btCreateTable
+			// 
+			this.btCreateTable.Font = new System.Drawing.Font("MS UI Gothic", 12F);
+			this.btCreateTable.Location = new System.Drawing.Point(213, 81);
+			this.btCreateTable.Name = "btCreateTable";
+			this.btCreateTable.Size = new System.Drawing.Size(195, 39);
+			this.btCreateTable.TabIndex = 7;
+			this.btCreateTable.Text = "テーブル作成";
+			this.btCreateTable.UseVisualStyleBackColor = true;
+			this.btCreateTable.Click += new System.EventHandler(this.CreateTable_Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(681, 358);
+			this.Controls.Add(this.btCreateTable);
 			this.Controls.Add(this.btCheckTable);
 			this.Controls.Add(this.btServiceStop);
 			this.Controls.Add(this.btServiceStart);
@@ -138,6 +151,7 @@
 		private System.Windows.Forms.Button btServiceStart;
 		private System.Windows.Forms.Button btServiceStop;
 		private System.Windows.Forms.Button btCheckTable;
+		private System.Windows.Forms.Button btCreateTable;
 	}
 }
 
